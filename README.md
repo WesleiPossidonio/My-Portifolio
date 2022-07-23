@@ -1,7 +1,7 @@
 # My Portfolio 
 
 <div align="center" style="display: flex; flex-start; justify-content:"center;">
-   <img alt="ImagePortifolio"  src="./assets/Project-gcb.png" width="30%" margin"15px">
+   <img alt="ImagePortifolio"  src="./src/assets/Img-HomePage.png" width="100%" margin"15px">
 </div>
 
 
@@ -28,13 +28,13 @@
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/3PbPTqnx7Xx8Tp2MAq/giphy.gif" width="965px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/3PbPTqnx7Xx8Tp2MAq/giphy.gif" width="100%">
 </p>
 
 ### Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/gLmNmVoRRRkMmQiKzr/giphy.gif" width="965px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/gLmNmVoRRRkMmQiKzr/giphy.gif" width="100%">
 </p>
 
 ## 🛠 Tecnologias
