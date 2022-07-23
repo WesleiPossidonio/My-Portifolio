@@ -11,14 +11,14 @@ import { FiLink, FiGithub } from 'react-icons/fi'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { SiStyledcomponents } from 'react-icons/si'
 
-import ImgProjectHomePage from '../../assets/Image-ProjectOne.png'
-import ImgProgectPageVideo from '../../assets/ImageProject-Two.png'
+import ImgProjectHomePage from '../../assets/Image-ProjectOne.jpg'
+import ImgProgectPageVideo from '../../assets/ImageProject-Two.jpg'
 import MyFirstProject from '../../assets/MyfirstProject.jpg'
-import ImgProjectArtBootstrap from '../../assets/Project-Art-Bootstrap.png'
-import ImgProjectArtReact from '../../assets/Project-Art.png'
-import ImgProjectCocaCola from '../../assets/Project-CocaCola.png'
-import ImgProjectGCB from '../../assets/Project-gcb.png'
-import ImgProjectHomeYou from '../../assets/Project-HomeYou.png'
+import ImgProjectArtBootstrap from '../../assets/Project-Art-Bootstrap.jpg'
+import ImgProjectArtReact from '../../assets/Project-Art.jpg'
+import ImgProjectCocaCola from '../../assets/Project-CocaCola.jpg'
+import ImgProjectGCB from '../../assets/Project-gcb.jpg'
+import ImgProjectHomeYou from '../../assets/Project-HomeYou.jpg'
 import { Button } from '../Button'
 import {
   Container,
@@ -54,7 +54,7 @@ export const IsCarousel = () => {
               </AboutProject>
               <ContainerButton>
                 <Button
-                  href="https://project-homeyou.vercel.app/"
+                  href="https://web-site-homeyou.netlify.app/"
                   target="_blank"
                   cardButton
                 >
