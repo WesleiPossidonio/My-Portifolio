@@ -54,7 +54,7 @@ export const IsCarousel = () => {
               </AboutProject>
               <ContainerButton>
                 <Button
-                  href="https://project-homeyou.vercel.app/"
+                  href="https://web-site-homeyou.netlify.app/"
                   target="_blank"
                   cardButton
                 >
