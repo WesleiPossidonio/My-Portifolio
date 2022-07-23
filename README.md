@@ -1,8 +1,8 @@
 # My Portfolio 
 
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Img-HomePage.png" />
-</h1>
+<div align="center" style="display: flex; flex-start; justify-content:"center;">
+   <img alt="ImagePortifolio"  src="./assets/Project-gcb.png" width="30%" margin"15px">
+</div>
 
 
 ## 💻 Sobre o projeto
@@ -12,26 +12,29 @@
 - Sobre Mim 
      - Aqui eu coloco o resumo da minha tragetória e um pouco da minha história.
 - Minhas Skills
-    -É a sessão onde mostro os meus conhecimentos, minhas skills
+    - É a sessão onde mostro os meus conhecimentos, minhas skills
 - Projetos
     - Nessa sessão está os meus melhores projetos
 - Contato 
     - Nesta sessão coloco os meus contatos
+    
+    
+ <h3 align="center">
+    <a href="https://my-portifolio-ac1qa2hss-wesleipossidonio.vercel.app/">Acessar a demonstração</a>
+<h3 >
 
 ## 🎨 Layout
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://giphy.com/embed/3PbPTqnx7Xx8Tp2MAq" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/3PbPTqnx7Xx8Tp2MAq/giphy.gif" width="965px">
 </p>
 
 ### Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://giphy.com/embed/gLmNmVoRRRkMmQiKzr" width="400px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://media.giphy.com/media/gLmNmVoRRRkMmQiKzr/giphy.gif" width="965px">
 </p>
 
 ## 🛠 Tecnologias
