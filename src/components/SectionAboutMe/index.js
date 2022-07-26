@@ -28,7 +28,7 @@ export const SectionAboutMe = () => {
     <Container id="AboutMe">
       <Image data-aos="fade-up-right" src={ImgAboutMe} alt="imagem-Avatar" />
       <ContainerItens data-aos="fade-up-left">
-        <IsTitle>Sobre Mim</IsTitle>
+        <IsTitle aboutMe>Sobre Mim</IsTitle>
         <TextCity>Macaé, RJ </TextCity>
         <TextContainer>
           <Text>
