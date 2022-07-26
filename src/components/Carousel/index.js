@@ -79,7 +79,7 @@ export const IsCarousel = () => {
           </CardItem>
 
           <CardItem>
-            <Image src={ImgProjectGCB} alt="imagem-project-HomeYou" />
+            <Image src={ImgProjectGCB} alt="imagem-project-healthy-food" />
             <ContainerText>
               <NameProject>Teste Empresa GCB</NameProject>
               <AboutProject>
@@ -87,7 +87,7 @@ export const IsCarousel = () => {
               </AboutProject>
               <ContainerButton>
                 <Button
-                  href="https://teste-healthy-food.netlify.app/"
+                  href="https://desafio-healthy-food.netlify.app/"
                   target="_blank"
                   cardButton
                 >
