@@ -1,13 +1,9 @@
 import PropTypes from 'prop-types'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 
 import { Header, ContainerHeader, NavLink, Logo, Icon } from './style'
-export const Navbar = ({ setMenuIsVisible, setClicPage, clickPage }) => {
-  useEffect(() => {
-    document.body.style.overflowY = clickPage ? 'auto' : 'hidden'
-  }, [clickPage])
-
+export const Navbar = ({ setMenuIsVisible, setClicPage }) => {
   return (
     <Header>
       <Logo activeClass="active" to="HomePage">

@@ -12,7 +12,8 @@ export const MenuMobile = ({
 }) => {
   useEffect(() => {
     document.body.style.overflowY = menuIsViseble ? 'hidden' : 'auto'
-  }, [menuIsViseble])
+    document.body.style.overflowY = clickPage && 'auto'
+  }, [menuIsViseble, clickPage])
 
   return (
     <Container isVisible={menuIsViseble} menuMobileVisible={clickPage}>
@@ -27,7 +28,10 @@ export const MenuMobile = ({
           to="HomePage"
           spy={true}
           smooth={true}
-          onClick={() => setClicPage(true)}
+          onClick={() => {
+            setClicPage(true)
+            setClicPage(true)
+          }}
         >
           Home
         </NavLink>
@@ -35,7 +39,10 @@ export const MenuMobile = ({
           to="AboutMe"
           spy={true}
           smooth={true}
-          onClick={() => setClicPage(true)}
+          onClick={() => {
+            setClicPage(true)
+            setClicPage(true)
+          }}
         >
           Sobre Mim
         </NavLink>
@@ -43,7 +50,10 @@ export const MenuMobile = ({
           to="Skill"
           spy={true}
           smooth={true}
-          onClick={() => setClicPage(true)}
+          onClick={() => {
+            setClicPage(true)
+            setClicPage(true)
+          }}
         >
           Minhas Skills
         </NavLink>
@@ -51,7 +61,10 @@ export const MenuMobile = ({
           to="Project"
           spy={true}
           smooth={true}
-          onClick={() => setClicPage(true)}
+          onClick={() => {
+            setClicPage(true)
+            setClicPage(true)
+          }}
         >
           Projetos
         </NavLink>
