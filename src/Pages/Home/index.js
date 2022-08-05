@@ -14,13 +14,20 @@ import { HomeContainer } from './style'
 
 export const Home = () => {
   const [menuIsViseble, setMenuIsVisible] = useState(false)
+  const [clickPage, setClicPage] = useState(false)
   return (
     <HomeContainer>
       <MenuMobile
         menuIsViseble={menuIsViseble}
         setMenuIsVisible={setMenuIsVisible}
+        setClicPage={setClicPage}
+        clickPage={clickPage}
       />
-      <Navbar setMenuIsVisible={setMenuIsVisible} />
+      <Navbar
+        setMenuIsVisible={setMenuIsVisible}
+        setClicPage={setClicPage}
+        clickPage={clickPage}
+      />
       <SectionHomePage />
       <SectionAboutMe />
       <SectionSkillPage />

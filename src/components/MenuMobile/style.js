@@ -10,7 +10,7 @@ export const Container = styled.div`
   right: 0;
   bottom: 0;
   z-index: 15;
-  display: flex;
+  display: ${({ menuMobileVisible }) => (menuMobileVisible ? 'none' : 'flex')};
   align-items: center;
   justify-content: center;
   background-color: #121212;
