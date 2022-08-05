@@ -24,44 +24,19 @@ export const MenuMobile = ({
         }}
       />
       <ContainerHeader>
-        <NavLink
-          to="HomePage"
-          spy={true}
-          smooth={true}
-          onClick={() => setClicPage(true)}
-        >
+        <NavLink to="HomePage" spy={true} onClick={() => setClicPage(true)}>
           Home
         </NavLink>
-        <NavLink
-          to="AboutMe"
-          spy={true}
-          smooth={true}
-          onClick={() => setClicPage(true)}
-        >
+        <NavLink to="AboutMe" spy={true} onClick={() => setClicPage(true)}>
           Sobre Mim
         </NavLink>
-        <NavLink
-          to="Skill"
-          spy={true}
-          smooth={true}
-          onClick={() => setClicPage(true)}
-        >
+        <NavLink to="Skill" spy={true} onClick={() => setClicPage(true)}>
           Minhas Skills
         </NavLink>
-        <NavLink
-          to="Project"
-          spy={true}
-          smooth={true}
-          onClick={() => setClicPage(true)}
-        >
+        <NavLink to="Project" spy={true} onClick={() => setClicPage(true)}>
           Projetos
         </NavLink>
-        <NavLink
-          to="Contact"
-          spy={true}
-          smooth={true}
-          onClick={() => setClicPage(true)}
-        >
+        <NavLink to="Contact" spy={true} onClick={() => setClicPage(true)}>
           Contato
         </NavLink>
       </ContainerHeader>
