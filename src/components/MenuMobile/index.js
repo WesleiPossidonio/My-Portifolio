@@ -28,10 +28,7 @@ export const MenuMobile = ({
           to="HomePage"
           spy={true}
           smooth={true}
-          onClick={() => {
-            setClicPage(true)
-            setClicPage(true)
-          }}
+          onClick={() => setClicPage(true)}
         >
           Home
         </NavLink>
@@ -39,10 +36,7 @@ export const MenuMobile = ({
           to="AboutMe"
           spy={true}
           smooth={true}
-          onClick={() => {
-            setClicPage(true)
-            setClicPage(true)
-          }}
+          onClick={() => setClicPage(true)}
         >
           Sobre Mim
         </NavLink>
@@ -50,10 +44,7 @@ export const MenuMobile = ({
           to="Skill"
           spy={true}
           smooth={true}
-          onClick={() => {
-            setClicPage(true)
-            setClicPage(true)
-          }}
+          onClick={() => setClicPage(true)}
         >
           Minhas Skills
         </NavLink>
@@ -61,10 +52,7 @@ export const MenuMobile = ({
           to="Project"
           spy={true}
           smooth={true}
-          onClick={() => {
-            setClicPage(true)
-            setClicPage(true)
-          }}
+          onClick={() => setClicPage(true)}
         >
           Projetos
         </NavLink>
