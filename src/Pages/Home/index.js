@@ -23,11 +23,7 @@ export const Home = () => {
         setClicPage={setClicPage}
         clickPage={clickPage}
       />
-      <Navbar
-        setMenuIsVisible={setMenuIsVisible}
-        setClicPage={setClicPage}
-        clickPage={clickPage}
-      />
+      <Navbar setMenuIsVisible={setMenuIsVisible} setClicPage={setClicPage} />
       <SectionHomePage />
       <SectionAboutMe />
       <SectionSkillPage />

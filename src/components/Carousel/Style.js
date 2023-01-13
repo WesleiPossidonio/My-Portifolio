@@ -1,36 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 95%;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 
-  .rec.rec-item-wrapper {
-    width: 100% !important;
-    padding: 1em !important;
-    margin: 10px !important;
-  }
-
-  .rec.rec-arrow {
-    background-color: #00df5e;
-    color: #212121;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-
-  .rec.rec-arrow:hover {
-    border: 2px solid #00df5e;
-    background-color: #c4c4c4;
-    color: #00df5e;
-  }
-
-  .rec.rec-arrow:disabled {
-    display: none;
-  }
-
-  @media screen and (min-width: 2050px) {
-    .rec.rec-carousel {
-      width: 70%;
-    }
+  .swiper-slide {
+    background: transparent;
+    width: 100%;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `
 export const CardItem = styled.div`
