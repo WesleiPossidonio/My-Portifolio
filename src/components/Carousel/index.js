@@ -11,7 +11,7 @@ import {
 import { FiLink, FiGithub } from 'react-icons/fi'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { SiStyledcomponents } from 'react-icons/si'
-import { Pagination, Autoplay } from 'swiper'
+import { Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import ImgProjectHomePage from '../../assets/Image-ProjectOne.jpg'
@@ -74,7 +74,7 @@ export const IsCarousel = () => {
               spaceBetween: 10
             }
           }}
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
