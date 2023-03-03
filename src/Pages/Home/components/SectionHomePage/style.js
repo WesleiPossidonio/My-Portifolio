@@ -7,6 +7,7 @@ export const Container = styled.div`
   padding: 14rem 0;
   gap: 2rem;
   width: 100%;
+  height: 100vh;
   background: #0c0c0c;
 
   @media screen and (max-width: 768px) {
