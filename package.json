@@ -19,8 +19,9 @@
     "react-slick": "^0.29.0",
     "react-typist": "^2.0.5",
     "react-typist-loop": "^1.0.0",
-    "styled-components": "^5.3.5",
-    "swiper": "^8.4.5",
+    "styled-components": "^5.3.6",
+    "swiper": "^9.0.5",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

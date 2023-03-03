@@ -1,9 +1,9 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
+import { BsWhatsapp } from 'react-icons/bs'
 
-import { IsTitle } from '..'
-
-import { Container, TextContact, Button } from './style'
+import { IsTitle } from '../../../../components'
+import { Container, TextContact, Button, ButtonWhatsapp } from './style'
 
 export const SectionContact = () => {
   return (
@@ -18,6 +18,16 @@ export const SectionContact = () => {
         <AiOutlineMail />
         Envie uma mensagem
       </Button>
+
+      <TextContact button>ou</TextContact>
+
+      <ButtonWhatsapp
+        href="https://api.whatsapp.com/send?phone=5522981016560"
+        target="_blank"
+      >
+        <BsWhatsapp />
+        Envie uma mensagem
+      </ButtonWhatsapp>
     </Container>
   )
 }

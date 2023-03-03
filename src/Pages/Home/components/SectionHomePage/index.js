@@ -1,11 +1,10 @@
-import React from 'react'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
 import { FiLinkedin, FiGithub } from 'react-icons/fi'
 import Typist from 'react-typist'
 
-import AvatarHome from '../../assets/Avatar-home-img.svg'
-
-import { Button } from '..'
-
+import AvatarHome from '../../../../assets/ImgHome.svg'
+import { Button } from '../../../../components'
 import {
   Container,
   ContainerItens,
@@ -16,6 +15,10 @@ import {
   ContainerButton
 } from './style'
 export const SectionHomePage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   return (
     <Container id="HomePage">
       <ContainerItens>
@@ -48,7 +51,12 @@ export const SectionHomePage = () => {
         </ContainerButton>
       </ContainerItens>
 
-      <Image src={AvatarHome} alt="imagem-Avatar" />
+      <Image
+        src={AvatarHome}
+        alt="imagem-Avatar"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      />
     </Container>
   )
 }

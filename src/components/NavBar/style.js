@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Header = styled.section`
   width: 100%;
-  height: 72px;
+  height: 4.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,20 +20,20 @@ export const Header = styled.section`
 export const Logo = styled(Link)`
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
   color: #00df5e;
   cursor: pointer;
 
   @media screen and (max-width: 880px) {
-    margin-left: 1em;
+    margin-left: 1rem;
   }
 `
 
 export const ContainerHeader = styled.div`
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
 
   @media screen and (max-width: 880px) {
     display: none;
@@ -43,8 +43,8 @@ export const ContainerHeader = styled.div`
 export const NavLink = styled(Link)`
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   cursor: pointer;
 
   color: #00df5e;
@@ -52,8 +52,8 @@ export const NavLink = styled(Link)`
   &:after {
     content: '';
     width: 0px;
-    height: 2px;
-    margin-top: 5px;
+    height: 0.125rem;
+    margin-top: 0.3125rem;
 
     display: block;
     background: #00df5e;
@@ -70,8 +70,8 @@ export const Icon = styled.div`
   > svg {
     position: absolute;
     top: 1.5rem;
-    right: 1em;
-    font-size: 35px;
+    right: 1rem;
+    font-size: 2.1875rem;
     color: #00df5e;
     text-align: end;
   }

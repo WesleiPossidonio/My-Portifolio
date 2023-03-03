@@ -17,9 +17,6 @@ export const Navbar = ({ setMenuIsVisible, setClicPage }) => {
         <NavLink to="AboutMe" spy={true} smooth={true}>
           Sobre Mim
         </NavLink>
-        <NavLink to="Skill" spy={true} smooth={true}>
-          Minhas Skills
-        </NavLink>
         <NavLink to="Project" spy={true} smooth={true}>
           Projetos
         </NavLink>

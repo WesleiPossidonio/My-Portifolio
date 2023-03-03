@@ -5,23 +5,23 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  min-height: 934px;
-  padding: 70px;
+  gap: 2rem;
+  padding: 8rem 2rem;
   width: 100%;
   background: #121212;
   overflow-x: hidden;
-`
 
-export const Image = styled.img`
-  width: 350px;
-  padding: 15px;
+  @media screen and (min-width: 1028px) {
+    padding: 8rem 6rem;
+  }
 
-  @media screen and (max-width: 1023px) {
-    display: none;
+  @media screen and (max-width: 858px) {
+    flex-wrap: wrap;
   }
 `
 
 export const ContainerItens = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
 `
@@ -29,25 +29,22 @@ export const ContainerItens = styled.div`
 export const TextCity = styled.h2`
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 21px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.3125rem;
 
   color: #ffffff;
 `
 export const TextContainer = styled.div`
-  width: 500px;
-  @media screen and (max-width: 1023px) {
-    width: 100%;
-  }
+  width: 100%;
 `
 
 export const Text = styled.p`
   font-style: normal;
   font-weight: 300;
-  font-size: min(15px, 4vw);
-  line-height: 32px;
-  margin-bottom: 30px;
+  font-size: min(0.9375rem, 4vw);
+  line-height: 2rem;
+  margin-bottom: 1.875rem;
   text-align: justify;
 
   color: #c4c4c4;
@@ -60,5 +57,5 @@ export const Text = styled.p`
 export const ContainerButton = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 0.75rem;
 `

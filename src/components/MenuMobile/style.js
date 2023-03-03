@@ -17,7 +17,7 @@ export const Container = styled.div`
   opacity: 0;
   pointer-events: none;
   transition: 0.5s;
-  transform: translateY(50px);
+  transform: translateY(3.125rem);
 
   > svg {
     position: absolute;
@@ -32,7 +32,7 @@ export const Container = styled.div`
     css`
       opacity: 1;
       pointer-events: auto;
-      transform: translateY(8px);
+      transform: translateY(0.5rem);
 
       > svg {
         transform: rotate(0deg);
@@ -46,14 +46,14 @@ export const ContainerHeader = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 2.5rem;
 `
 
 export const NavLink = styled(Link)`
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
   cursor: pointer;
 
   color: #00df5e;

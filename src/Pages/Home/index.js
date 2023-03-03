@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 
+import { Footer, Navbar, MenuMobile } from '../../components'
 import {
   SectionHomePage,
   SectionAboutMe,
   SectionMyProject,
-  SectionSkillPage,
-  SectionContact,
-  Footer,
-  Navbar,
-  MenuMobile
-} from '../../components'
+  SectionContact
+} from './components'
 import { HomeContainer } from './style'
 
 export const Home = () => {
@@ -26,7 +23,6 @@ export const Home = () => {
       <Navbar setMenuIsVisible={setMenuIsVisible} setClicPage={setClicPage} />
       <SectionHomePage />
       <SectionAboutMe />
-      <SectionSkillPage />
       <SectionMyProject />
       <SectionContact />
       <Footer />

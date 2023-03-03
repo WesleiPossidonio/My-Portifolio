@@ -15,10 +15,13 @@ export const Footer = () => {
         >
           <ImWhatsapp />
         </LinkContact>
-        <LinkContact>
+        <LinkContact
+          href="https://www.linkedin.com/in/wesleifranca/"
+          target="_Blank"
+        >
           <FaLinkedin />
         </LinkContact>
-        <LinkContact>
+        <LinkContact href="https://github.com/WesleiPossidonio" target="_blank">
           <FaGithub />
         </LinkContact>
         <LinkContact>
