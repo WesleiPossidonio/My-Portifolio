@@ -21,7 +21,7 @@ export const ListCard = [
     id: `${uuid.v4()}`,
     NameProject: 'Gerador QrCode',
     DescriptionProject:
-      'Esse é um projeto em que coloco em prática o que venho aprendendo referente ao react.js, typeScript e styled-components',
+      'Esse é um projeto em que coloco em prática os conhecimentos em react.js, typeScript e styled-components',
     LinkProject: 'https://qr-code-site-chi.vercel.app/',
     LinkGitHub: 'https://github.com/WesleiPossidonio/QrCode-Site/tree/master',
     ImageProject: `${Qrcode}`,
