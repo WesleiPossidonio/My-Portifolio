@@ -14,13 +14,26 @@ import ImgProjectArtBootstrap from '../../assets/Project-Art-Bootstrap.png'
 import ImgProjectArtReact from '../../assets/Project-Art.png'
 import ImgProjectCocaCola from '../../assets/Project-CocaCola.png'
 import ImgProjectHomeYou from '../../assets/Project-HomeYou.png'
+import Qrcode from '../../assets/QrcodeSite.png'
 import TodoListImage from '../../assets/TodoListImage.png'
 export const ListCard = [
   {
     id: `${uuid.v4()}`,
+    NameProject: 'Gerador QrCode',
+    DescriptionProject:
+      'Esse é um projeto em que coloco em prática o que venho aprendendo referente ao react.js, typeScript e styled-components',
+    LinkProject: 'https://qr-code-site-chi.vercel.app/',
+    LinkGitHub: 'https://github.com/WesleiPossidonio/QrCode-Site/tree/master',
+    ImageProject: `${Qrcode}`,
+    StudyProject: true,
+    WorkProjects: false,
+    Tecnologies: 'REACT.JS, TYPESCRIPT, STYLED-COMPONENTS'
+  },
+  {
+    id: `${uuid.v4()}`,
     NameProject: 'Ignite Coffe',
     DescriptionProject:
-      'Esse é o segundo desafio da saga React.js do IGNITE, praticando os conceitos aprendidod',
+      'Esse é o segundo desafio da saga React.js do IGNITE, praticando os conceitos aprendidos',
     LinkProject: 'https://ignite-coffee-seven.vercel.app/',
     LinkGitHub: 'https://github.com/WesleiPossidonio/Ignite-Coffee',
     ImageProject: `${ImageCoffe}`,
