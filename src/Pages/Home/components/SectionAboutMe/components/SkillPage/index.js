@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiGit } from 'react-icons/di'
+import { DiGit, DiScrum } from 'react-icons/di'
 import {
   FaHtml5,
   FaCss3Alt,
@@ -63,6 +63,10 @@ export const SkillPage = () => {
       <ContainerIcon>
         <SiMongodb className="icon" />
         <TextIcon>MongoDB</TextIcon>
+      </ContainerIcon>
+      <ContainerIcon>
+        <DiScrum className="icon" />
+        <TextIcon>Scrum</TextIcon>
       </ContainerIcon>
     </ContainerSkill>
   )

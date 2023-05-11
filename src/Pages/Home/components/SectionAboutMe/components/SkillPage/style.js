@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ContainerSkill = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5.625rem, 7.5rem));
-  gap: 1rem;
+  gap: 2.5rem;
   justify-content: center;
 
   margin: auto;
@@ -18,13 +18,12 @@ export const ContainerSkill = styled.div`
 `
 
 export const ContainerIcon = styled.div`
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 8.5rem;
+  height: 8.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.1875rem;
   cursor: pointer;
 
   background-color: #212121;
