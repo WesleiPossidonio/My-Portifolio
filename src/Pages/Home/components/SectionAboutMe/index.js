@@ -5,7 +5,7 @@ import { FiDownloadCloud } from 'react-icons/fi'
 import { HiOutlineMail } from 'react-icons/hi'
 import 'aos/dist/aos.css'
 
-import Curriculo from '../../../../assets/Curriculo.pdf'
+import Curriculo from '../../../../assets/Curriculo-Weslei-França.pdf'
 import { Button, IsTitle } from '../../../../components'
 import { SkillPage } from './components/SkillPage'
 import {
@@ -32,27 +32,49 @@ export const SectionAboutMe = () => {
         </TextCity>
         <TextContainer>
           <Text>
-            Atualmente, estou iniciando minha carreira como programador. Com
-            seis meses de Carreira passei por duas agencias que são: DUC e
-            i3Group ambas desta cidade de Macaé-RJ. Onde aprendi muito e
-            desenvolvi meus conhecimentos.
+            Olá, meu nome é <span> Weslei França</span>, e eu sou{' '}
+            <span> Desenvolvedor Front-End Jr.</span> com uma grande paixão pela
+            tecnologia e pelo desenvolvimento web. <br />
+          </Text>
+
+          <Text>
+            Ao longo dos meus seis meses de carreira, tive a oportunidade de
+            trabalhar em{' '}
             <span>
               {' '}
-              Estou cursando o 4° semestre na graduação de Engenharia de
-              Software
+              duas agências de renome aqui em Macaé-RJ , a DUC e i3Group{' '}
+            </span>
+            , onde participei do desenvolvimento de vários projetos web e ganhei
+            muita experiência.
+          </Text>
+
+          <Text>
+            <span>
+              {' '}
+              Atualmente estou cursando o 5° semestre na graduação de Engenharia
+              de Software
             </span>
             , pela instituição Estácio de Sá. <br />
-            Possuo conhecimentos em:
+          </Text>
+          <Text>
+            Possuo conhecimentos e experiência em:
             <span>
               {' '}
               HTML5, CSS3, JavaScript, TypeScript, Bootstrap, React.js Git e
-              GitHub Node.Js usando o flamework Express.
+              GitHub Node.Js usando o flamework Express. metodologias Ágeis como
+              Scrum
             </span>{' '}
             Bancos de Dados relacináveis como <span>PostgresSQL</span> e não
             relacionáveis como <span>MongoDB.</span> Atualmente estou
             estudadando React.js na Rocketseat Ignite, colocando em prática os
             conhecimentos acima, e em um futuro próximo tenho o objetivo de
-            eprender React Native.
+            aprender React Native. <br />
+          </Text>
+
+          <Text>
+            Se você procura um desenvolvedor Front-End Jr. apaixonado por
+            tecnologia e comprometido com a excelência no trabalho, por favor,
+            entre em contato comigo. Seria um prazer fazer parte da sua equipe.
           </Text>
         </TextContainer>
 

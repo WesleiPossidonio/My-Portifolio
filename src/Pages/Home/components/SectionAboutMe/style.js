@@ -44,7 +44,7 @@ export const Text = styled.p`
   font-weight: 300;
   font-size: min(0.9375rem, 4vw);
   line-height: 2rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 0.9rem;
   text-align: justify;
 
   color: #c4c4c4;
@@ -58,4 +58,5 @@ export const ContainerButton = styled.div`
   display: flex;
   flex-direction: row;
   gap: 0.75rem;
+  margin-top: 1rem;
 `
