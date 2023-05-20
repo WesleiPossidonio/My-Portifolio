@@ -120,7 +120,7 @@ export const ListCard = [
     NameProject: 'Site Macaé em Obras',
     DescriptionProject:
       'Participei do desenvolvimento deste site junto a Prefitura de Macaé-RJ',
-    LinkProject: 'https://www.cecarvalho.com.br/',
+    LinkProject: 'https://macae.rj.gov.br/obrapratodolado/',
     LinkGitHub:
       'https://github.com/WesleiPossidonio/site-prefeitura-de-maca--obras',
     ImageProject: `${MacaeImage}`,
