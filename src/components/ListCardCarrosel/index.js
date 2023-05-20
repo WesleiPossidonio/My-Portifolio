@@ -15,6 +15,7 @@ import ImgProjectArtReact from '../../assets/Project-Art.png'
 import ImgProjectCocaCola from '../../assets/Project-CocaCola.png'
 import ImgProjectHomeYou from '../../assets/Project-HomeYou.png'
 import Qrcode from '../../assets/QrcodeSite.png'
+import SMFImage from '../../assets/smf-image.png'
 import TdbrImage from '../../assets/Tdbr-Image.png'
 import TodoListImage from '../../assets/TodoListImage.png'
 export const ListCard = [
@@ -87,6 +88,18 @@ export const ListCard = [
     LinkProject: 'https://www.colegiocbo.com.br/site/',
     LinkGitHub: '#',
     ImageProject: `${CBOImage}`,
+    StudyProject: false,
+    WorkProjects: true,
+    Tecnologies: 'HTML, JAVASCRPT, BOOTSTRAP, CSS'
+  },
+  {
+    id: `${uuid.v4()}`,
+    NameProject: 'Site Corretora SMF',
+    DescriptionProject:
+      'Estou desenvolvendo este site completamente do zero criando o layout e colocando-o para funcionar',
+    LinkProject: 'https://site-smf-corretora.vercel.app/',
+    LinkGitHub: '#',
+    ImageProject: `${SMFImage}`,
     StudyProject: false,
     WorkProjects: true,
     Tecnologies: 'HTML, JAVASCRPT, BOOTSTRAP, CSS'
