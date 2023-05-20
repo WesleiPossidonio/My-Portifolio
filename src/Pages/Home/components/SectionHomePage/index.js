@@ -36,6 +36,7 @@ export const SectionHomePage = () => {
             href="https://www.linkedin.com/in/wesleifranca/"
             target="_blank "
             className="button"
+            buttonHome
           >
             <FiLinkedin />
             Linkedin
@@ -44,6 +45,7 @@ export const SectionHomePage = () => {
             href="https://github.com/WesleiPossidonio"
             target="_blank "
             className="button"
+            buttonHome
           >
             <FiGithub />
             Github

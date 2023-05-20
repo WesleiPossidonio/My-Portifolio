@@ -40,6 +40,10 @@ export const P = styled.p`
     color: #00df5e;
     font-weight: bold;
   }
+
+  @media screen and (min-width: 2000px) {
+    font-size: min(1.5rem, 3vw);
+  }
 `
 
 export const H1 = styled.h1`
@@ -48,6 +52,10 @@ export const H1 = styled.h1`
   font-size: min(3.75rem, 1rem + 4.6vw);
   text-transform: uppercase;
   color: #ffffff;
+
+  @media screen and (min-width: 2000px) {
+    font-size: min(4.75rem, 1rem + 4.6vw);
+  }
 `
 
 export const TextSkil = styled.p`
@@ -64,6 +72,10 @@ export const TextSkil = styled.p`
   span {
     color: #00df5e;
     margin-left: 2px;
+  }
+
+  @media screen and (min-width: 2000px) {
+    font-size: min(1.8rem, 3vw);
   }
 `
 
@@ -97,5 +109,9 @@ export const Image = styled.img`
 
   @media screen and (max-width: 880px) {
     width: min(21.875rem, 75vw);
+  }
+
+  @media screen and (min-width: 2000px) {
+    width: min(30rem, 75vw);
   }
 `

@@ -2,6 +2,7 @@
 import * as uuid from 'uuid'
 
 import CBOImage from '../../assets/CBOImage.png'
+import CarvalhoImage from '../../assets/Image-Carvalho.png'
 import ImgProjectHomePage from '../../assets/Image-ProjectOne.png'
 import ImageCoffe from '../../assets/ImageCoffe.png'
 import ImageIgniteTimer from '../../assets/ImageIgniteTimer.png'
@@ -29,6 +30,19 @@ export const ListCard = [
     WorkProjects: false,
     Tecnologies: 'REACT.JS, TYPESCRIPT, STYLED-COMPONENTS'
   },
+  {
+    id: `${uuid.v4()}`,
+    NameProject: 'Site Escola Carvalho',
+    DescriptionProject:
+      'Atualizei o layout do site todo trocando as cores, texto e afins',
+    LinkProject: 'https://www.cecarvalho.com.br/',
+    LinkGitHub: '#',
+    ImageProject: `${CarvalhoImage}`,
+    StudyProject: false,
+    WorkProjects: true,
+    Tecnologies: 'HTML, JAVASCRPT, BOOTSTRAP, CSS'
+  },
+
   {
     id: `${uuid.v4()}`,
     NameProject: 'Ignite Coffe',
