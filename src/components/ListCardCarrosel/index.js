@@ -8,6 +8,7 @@ import ImageCoffe from '../../assets/ImageCoffe.png'
 import ImageIgniteTimer from '../../assets/ImageIgniteTimer.png'
 import EscolaEPImage from '../../assets/Imagem-escola-ep.png'
 import ImgProgectPageVideo from '../../assets/ImageProject-Two.png'
+import IS53Image from '../../assets/is53Image.png'
 import MacaeImage from '../../assets/Macae-imagem.png'
 import MyFirstProject from '../../assets/MyfirstProject.jpg'
 import ImgProjectArtBootstrap from '../../assets/Project-Art-Bootstrap.png'
@@ -19,6 +20,17 @@ import SMFImage from '../../assets/smf-image.png'
 import TdbrImage from '../../assets/Tdbr-Image.png'
 import TodoListImage from '../../assets/TodoListImage.png'
 export const ListCard = [
+  {
+    id: `${uuid.v4()}`,
+    NameProject: 'Is53 Music',
+    DescriptionProject: 'Esse é o site da Banda gospel IS53',
+    LinkProject: 'https://is53.com.br/',
+    LinkGitHub: '#',
+    ImageProject: `${IS53Image}`,
+    StudyProject: false,
+    WorkProjects: true,
+    Tecnologies: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT'
+  },
   {
     id: `${uuid.v4()}`,
     NameProject: 'Gerador QrCode',
