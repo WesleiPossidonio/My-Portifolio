@@ -53,6 +53,7 @@ export const SectionContainer = styled.section`
   padding: 5rem 0;
 
   background: #0c0c0c;
+  overflow-y: scroll;
 
   .stepper {
     margin-top: 3rem;
