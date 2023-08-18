@@ -9,7 +9,7 @@ export const IsRouter = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/briefind" element={<Briefind />} />
+        <Route path="/briefing" element={<Briefind />} />
       </Routes>
     </Router>
   )

@@ -1,9 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { HiOutlineMenuAlt3 } from 'react-icons/hi'
+import { useNavigate } from 'react-router-dom'
 
 import { Header, ContainerHeader, NavLink, Logo, Icon } from './style'
 export const Navbar = ({ setMenuIsVisible, setClicPage }) => {
+  const navigate = useNavigate()
+
+  const handleNavigateTobriefing = () => {
+    navigate('/briefing')
+  }
   return (
     <Header>
       <Logo activeClass="active" to="HomePage">
@@ -23,6 +29,7 @@ export const Navbar = ({ setMenuIsVisible, setClicPage }) => {
         <NavLink to="Contact" spy={true} smooth={true}>
           Contato
         </NavLink>
+        <NavLink onClick={handleNavigateTobriefing}>Briefing</NavLink>
       </ContainerHeader>
       <Icon>
         <HiOutlineMenuAlt3

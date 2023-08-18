@@ -8,6 +8,11 @@ export const ContainerInput = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: 700px) {
+    padding: 2rem 0;
+    width: 90%;
+  }
 `
 
 export const Label = styled.label`
@@ -16,12 +21,16 @@ export const Label = styled.label`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 0.625rem;
 
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 
   color: #00df5e;
+
+  @media (max-width: 700px) {
+    font-size: 0.875rem;
+  }
 `
 
 export const Input = styled.input`

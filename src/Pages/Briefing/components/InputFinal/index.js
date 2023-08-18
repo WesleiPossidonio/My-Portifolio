@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
 import { ContainerInput, Input, Label, TextArea } from '../style'
 
-export const InputsFinal = () => {
+export const InputsFinal = ({ register, errors }) => {
   return (
     <ContainerInput>
       <Label htmlFor="name">
@@ -11,6 +12,7 @@ export const InputsFinal = () => {
           placeholder="Ex: (22) 9 0000-0000 e (22) 9 0000-0000"
           type="text"
           id="name"
+          {...register('ContactPhone')}
         />
       </Label>
 
@@ -20,6 +22,7 @@ export const InputsFinal = () => {
           placeholder="(22) 9 0000-0000 e (22) 9 0000-0000"
           type="text"
           id="name"
+          {...register('contactWhatsapp')}
         />
       </Label>
 
@@ -29,6 +32,7 @@ export const InputsFinal = () => {
           placeholder="ex: weslei.possidonio@gmail.com"
           type="text"
           id="name"
+          {...register('emailContact')}
         />
       </Label>
 
@@ -38,6 +42,7 @@ export const InputsFinal = () => {
           placeholder="Instagram, facebook, tiktok e outros"
           type="text"
           id="name"
+          {...register('linksSocialNetworks')}
         />
       </Label>
 
@@ -47,13 +52,24 @@ export const InputsFinal = () => {
           placeholder="Se sim, mande o login e senha para acessá-lo"
           type="text"
           id="name"
+          {...register('websiteDomain')}
         />
       </Label>
 
       <Label htmlFor="name">
         Existe alguma informação não listada aqui que você gostaria de listar ?
-        <TextArea placeholder="Digite Aqui" type="text" id="name" />
+        <TextArea
+          placeholder="Digite Aqui"
+          type="text"
+          id="name"
+          {...register('unlistedInformation')}
+        />
       </Label>
     </ContainerInput>
   )
+}
+
+InputsFinal.propTypes = {
+  register: PropTypes.func,
+  errors: PropTypes.object
 }

@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { useEffect } from 'react'
 import { IoClose } from 'react-icons/io5'
+import { useNavigate } from 'react-router-dom'
 
 import { Container, ContainerHeader, NavLink } from './style'
 
@@ -14,6 +15,13 @@ export const MenuMobile = ({
     document.body.style.overflowY = menuIsViseble ? 'hidden' : 'auto'
     document.body.style.overflowY = clickPage && 'auto'
   }, [menuIsViseble, clickPage])
+
+  const navigate = useNavigate()
+
+  const handleNavigateTobriefing = () => {
+    setClicPage(true)
+    navigate('/briefing')
+  }
 
   return (
     <Container isVisible={menuIsViseble} menuMobileVisible={clickPage}>
@@ -39,6 +47,7 @@ export const MenuMobile = ({
         <NavLink to="Contact" spy={true} onClick={() => setClicPage(true)}>
           Contato
         </NavLink>
+        <NavLink onClick={handleNavigateTobriefing}>Briefing</NavLink>
       </ContainerHeader>
     </Container>
   )

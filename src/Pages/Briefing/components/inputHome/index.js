@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
 import { ContainerInput, Input, Label, TextArea } from '../style'
 
-export const InputBriefindHome = () => {
+export const InputBriefindHome = ({ register, errors }) => {
   return (
     <ContainerInput>
       <Label htmlFor="name">
@@ -11,12 +12,18 @@ export const InputBriefindHome = () => {
           placeholder="Ex: Marcos - Loja de Roupas"
           type="text"
           id="name"
+          {...register('companyName')}
         />
       </Label>
 
       <Label htmlFor="name">
         Qual o produto ou serviço que sua empresa vende ?
-        <Input placeholder="ex: roupas, consultoria" type="text" id="name" />
+        <Input
+          placeholder="ex: roupas, consultoria"
+          type="text"
+          id="name"
+          {...register('productOrService')}
+        />
       </Label>
 
       <Label htmlFor="descrption">
@@ -24,12 +31,18 @@ export const InputBriefindHome = () => {
         <TextArea
           placeholder="ex: Escreva um resumo sobre a empresa para colocarmos no campo de sobre nós"
           id="descrption"
+          {...register('companyDescription')}
         />
       </Label>
 
       <Label htmlFor="name">
-        Como vôce pesquisaria a sua empresa no google?
-        <Input placeholder="Escritório de Advocacia" type="text" id="name" />
+        Como você pesquisaria a sua empresa no google?
+        <Input
+          placeholder="Escritório de Advocacia"
+          type="text"
+          id="name"
+          {...register('googleSearch')}
+        />
       </Label>
 
       <Label htmlFor="about">
@@ -37,6 +50,7 @@ export const InputBriefindHome = () => {
         <TextArea
           placeholder="ex: Direito penal: Realizada por profissionais capacitados para prestar consultoria juridica na área e atuar nos mais diversos casos..."
           id="about"
+          {...register('textCategoryAndService')}
         />
       </Label>
 
@@ -46,8 +60,14 @@ export const InputBriefindHome = () => {
           placeholder="ex: Muito mais que um escritório, seu parceiro de negócios"
           type="text"
           id="privacidade"
+          {...register('privacyPolicy')}
         />
       </Label>
     </ContainerInput>
   )
+}
+
+InputBriefindHome.propTypes = {
+  register: PropTypes.func,
+  errors: PropTypes.object
 }
