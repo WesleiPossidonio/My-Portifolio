@@ -109,7 +109,7 @@ export const ListCard = [
     NameProject: 'Site Corretora SMF',
     DescriptionProject:
       'Estou desenvolvendo este site completamente do zero criando o layout e colocando-o para funcionar',
-    LinkProject: 'https://site-smf-corretora.vercel.app/',
+    LinkProject: 'https://smfcorretora.com.br/',
     LinkGitHub: '#',
     ImageProject: `${SMFImage}`,
     StudyProject: false,
